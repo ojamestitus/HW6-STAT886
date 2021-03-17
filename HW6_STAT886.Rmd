@@ -1,0 +1,27 @@
+---
+title: "STAT 886 HW 6"
+author: "Oliver Titus"
+date: "3/16/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Problem 1: Text Problem 10.2
+
+## (a)
+
+```{r, echo=TRUE}
+n<-100
+for(i in 1:n){
+y <- rnorm(n, 8, 4)
+ybar <- mean(y)
+}
+ybar
+```
+So the approximate posterior mean $E(\theta_1 \mid y) = 8.011$. The standard deviation is 4.082841.
+
+## (b)
+
